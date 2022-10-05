@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin:  0;
+}
+header{
+    height: 100px;
+    width: 100%;
+    background-image: linear-gradient(to right
+    ,red,rgb(238, 91, 91));
+}
+#logobox{
+    height: 100%;
+    float: right;
+
+}
+#h1logo{
+    float: left;
+    color: white;
+    line-height: 100px;
+    padding: 0 10px;
+}
+#imgphoto{
+    height: 100%;
+    border-radius: 30%;
+    width: 70px;
+    padding: 0 15px;
+}
+nav{
+    width: 70%;
+    text-align: center;
+}
+nav a{
+    text-decoration: none;
+    line-height: 100px;
+    color: white;
+    font-weight: bold;
+    display: inline-block;
+}
+nav li{
+    
+    width: 150px;
+    text-align: center;
+    display: inline-block
+
+}
+nav a:hover{
+    background-color: white;
+    color: black;
+    height: 100%;
+    width: 100%;
+}
+main{
+    width: 100%;
+    height: 600px;
+    background-color: red;
+    border-top: 5px solid white;
+    animation-name: changebackground;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+@keyframes changebackground{
+    0%{
+        background-color: rgb(241, 230, 230);
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: black;
+    }
+}
+aside{
+    width: 30%;
+    height: 100%;
+    background-color:white;
+    text-align: center;
+    float: left;
+}
+aside img{
+    width: 90%;
+    height: 80%;
+    
+}
+#name{
+    padding: 10px 0;
+    border-bottom: 2px solid red;
+}
+#article{
+    width: 70%;
+    height: 450px;
+    float: right;
+position: relative;
+}
+#box{
+    text-align: center;
+    width: 400px;
+    height: 180px;
+    position: absolute;
+    background-color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+#box h1{
+    border-bottom: 3px solid black;
+    padding: 5px 0;
+}
+#box p{
+    font-family: 'cairo', sans-serif;
+    text-align: center;
+    padding: 15px 0;
+}
+#div1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+    border-bottom: 2px double red;
+}
+#div1 img{
+    width: 45px;
+    margin: 0 3px;
+    
+}
+#div1 img:hover{
+    width: 60px;
+}
+@media all{
+
+}
+@media screen {
+    
+}
+@media print{
+    
+}
